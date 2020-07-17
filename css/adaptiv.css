@@ -1,0 +1,107 @@
+@media (max-width: 1200px) {
+    .fixed-container {
+        width: 945px;
+        }
+    .central-banner__heading {
+        font-size: 50px;
+        }
+    .central-banner__description {
+        font-size: 18px;
+        }
+    .my-advantages__list-item:nth-child(n+3) {
+        margin-top: 30px;
+        }
+    .projects__list-item {
+        width: 49.8%;
+        }
+}
+
+@media (max-width: 970px) {
+    .no-js .navigation__mob-burger {
+        display: none;
+        }
+    .no-js .navigation__list {
+        display: block;
+        }
+    .fixed-container {
+        width: 768px;
+        }
+    .navigation__list {
+        display: none;
+        }
+    .central-banner__heading {
+        font-size: 30px;
+        }
+    .central-banner__description {
+        font-size: 14px;
+        }
+    .my-advantages {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        }
+    .my-advantages__list-item {
+        margin-top: 30px;
+        }
+    .navigation__mob-burger {
+        display: block;
+        background-image: url("../img/burger-mid.png");
+        background-repeat: no-repeat;
+        border: none;
+        width: 40px;
+        height: 40px;
+        background-color: #2a2e49;
+        margin-top: 10px;
+        }  
+    .mobil-menu__active {
+        display: block;
+        z-index: 1;
+        position: fixed;
+        left: 0;
+        top: 100px;
+        background-color: #ffffff;
+        color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        text-align: center;
+        padding-top: 10%;
+        }
+    .navigation__list-item {
+        font-size: 24px; 
+        display: block;
+        width: 270px;
+        margin: 0 auto;
+        padding: 15px 0;
+        }    
+}
+
+@media (max-width: 778px) {
+    .fixed-container {
+        width: 320px;
+        }
+    .central-banner__heading {
+        font-size: 26px;
+        }
+    .univers-icon {
+        background-position-x: 130px;
+        }
+    .cloud-icon {
+        background-position-x: 125px;
+        }
+    .portfolio-icon {
+        background-position-x: 125px;
+        }
+    .light-icon {
+        background-position-x: 140px;
+        }
+    .computer-icon {
+        background-position-x: 125px;
+        }
+    .pencil-icon {
+        background-position-x: 125px;
+        }
+    .projects__list-item {
+        width: 100%;
+        }
+    
+}

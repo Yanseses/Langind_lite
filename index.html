@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="fonts/ralewaybold.woff2" as="font">
+    <link rel="preload" href="fonts/ralewayregular.woff2" as="font">
+    <link rel="preload" href="fonts/opensans-bold.woff2" as="font">
+    <link rel="preload" href="fonts/opensans-regular.woff2" as="font">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/adaptiv.css">
+    <title>Test Vacantion Page</title>
+</head>
+<body class="no-js">
+    <header>
+        <div class="header-nav">
+            <div class="fixed-container header-nav__container">
+                <picture>
+                    <source 
+                        media="(max-width: 1200px)" 
+                        type="image/webp" 
+                        srcset="
+                            img/logo/logo-middle@1x.webp 1x, 
+                            img/logo/logo-middle@2x.webp 2x">
+
+                    <source 
+                        media="(max-width: 1200px)" 
+                        srcset="
+                            img/logo/logo-mobil@1x.png 1x, 
+                            img/logo/logo-mobil@2x.png 2x" >
+
+                    <img 
+                        src="img/logo/logo-middle@1x.png" 
+                        srcset="img/logo/logo-middle@2x.webp 2x" 
+                        alt="Логотип" 
+                        class="header-nav__logo">
+                </picture>
+
+                <nav class="navigation">
+                    <button class="navigation__mob-burger js-header_burger" aria-expanded="false" aria-label="Меню свернуто"></button>
+
+                    <ul class="navigation__list js-list-menu">
+                        <li class="navigation__list-item">
+                            <a href="">Features</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="">Works</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="">Our Team</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="">Testimonials</a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a href="">Download</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="central-banner">
+            <div class="fixed-container">
+                <h1 class="central-banner__heading">
+                    Your Favorite One Page Multi&nbsp;Purpose Template
+                </h1>
+                <p class="central-banner__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+                    vel&nbsp;scelerisque nisl consectetur et.
+                </p>
+                <button class="button central-banner__btn" type="button">
+                    Find Out More
+                </button>
+            </div>
+        </section>
+
+        <section class="my-advantages">
+            <h2 class="visually-hidden">
+                Мои достижения
+            </h2>
+            <div class="fixed-container">
+                <ul class="my-advantages__list">
+                    <li class="my-advantages__list-item">
+                        <h3 class="list-item__heading pencil-icon">
+                            Easily Customised
+                        </h3>
+                        <p class="list-item__description">
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla
+                        </p>
+                    </li>
+                    <li class="my-advantages__list-item">
+                        <h3 class="list-item__heading computer-icon">
+                            Responsive REady
+                        </h3>
+                        <p class="list-item__description">
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla
+                        </p>
+                    </li>
+                    <li class="my-advantages__list-item">
+                        <h3 class="list-item__heading light-icon">
+                            Modern Design
+                        </h3>
+                        <p class="list-item__description">
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla
+                        </p>
+                    </li>
+                    <li class="my-advantages__list-item">
+                        <h3 class="list-item__heading univers-icon">
+                            Clean Code
+                        </h3>
+                        <p class="list-item__description">
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla
+                        </p>
+                    </li>
+                    <li class="my-advantages__list-item">
+                        <h3 class="list-item__heading portfolio-icon">
+                            Ready to Ship
+                        </h3>
+                        <p class="list-item__description">
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla
+                        </p>
+                    </li>
+                    <li class="my-advantages__list-item">
+                        <h3 class="list-item__heading cloud-icon">
+                            Download for Free
+                        </h3>
+                        <p class="list-item__description">
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <ul class="projects__list">
+                <li class="projects__list-item">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery1-middle@1x.webp 1x, 
+                                ./img/galery/galery1-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery1-middle@1x.png 1x, 
+                                ./img/galery/galery1-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery1-middle@1x.png" 
+                            srcset="img/galery/galery1-middle@2x.webp 2x" 
+                            alt="Проект-1" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+                <li class="projects__list-item">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery2-middle@1x.webp 1x, 
+                                ./img/galery/galery2-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery2-middle@1x.png 1x, 
+                                ./img/galery/galery2-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery2-middle@1x.png" 
+                            srcset="img/galery/galery2-middle@2x.webp 2x" 
+                            alt="Проект-2" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+                <li class="projects__list-item">
+                    <img src="./img/galery/galery3-middle@1x.png" alt="" class="projects__list-img">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery3-middle@1x.webp 1x, 
+                                ./img/galery/galery3-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery3-middle@1x.png 1x, 
+                                ./img/galery/galery3-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery3-middle@1x.png" 
+                            srcset="img/galery/galery3-middle@2x.webp 2x" 
+                            alt="Проект-3" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+                <li class="projects__list-item">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery3-middle@1x.webp 1x, 
+                                ./img/galery/galery3-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery3-middle@1x.png 1x, 
+                                ./img/galery/galery3-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery3-middle@1x.png" 
+                            srcset="img/galery/galery3-middle@2x.webp 2x" 
+                            alt="Проект-4" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+                <li class="projects__list-item">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery5-middle@1x.webp 1x, 
+                                ./img/galery/galery5-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery5-middle@1x.png 1x, 
+                                ./img/galery/galery5-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery5-middle@1x.png" 
+                            srcset="img/galery/galery5-middle@2x.webp 2x" 
+                            alt="Проект-5" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+                <li class="projects__list-item">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery6-middle@1x.webp 1x, 
+                                ./img/galery/galery6-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery6-middle@1x.png 1x, 
+                                ./img/galery/galery6-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery6-middle@1x.png" 
+                            srcset="img/galery/galery6-middle@2x.webp 2x" 
+                            alt="Проект-6" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+                <li class="projects__list-item">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery7-middle@1x.webp 1x, 
+                                ./img/galery/galery7-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery7-middle@1x.png 1x, 
+                                ./img/galery/galery7-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery7-middle@1x.png" 
+                            srcset="img/galery/galery7-middle@2x.webp 2x" 
+                            alt="Проект-7" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+                <li class="projects__list-item">
+                    <picture class="projects__picture">
+                        <source 
+                            media="(max-width: 1200px)" 
+                            type="image/webp" 
+                            srcset="
+                                ./img/galery/galery8-middle@1x.webp 1x, 
+                                ./img/galery/galery8-middle@2x.webp 2x">
+    
+                        <source 
+                            media="(max-width: 1200px)" 
+                            srcset="
+                                ./img/galery/galery8-middle@1x.png 1x, 
+                                ./img/galery/galery8-middle@2x.png 2x" >
+    
+                        <img 
+                            src="img/galery/galery8-middle@1x.png" 
+                            srcset="img/galery/galery8-middle@2x.webp 2x" 
+                            alt="Проект-8" 
+                            class="projects__list-img">
+                    </picture>
+
+                    <div class="projects__masc">
+                        <h4 class="masc-heiding">
+                            Progect Name
+                        </h4>
+                        <p class="masc-description">
+                            User Interface Design
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/script.js"></script>
+    </footer>
+</body>
+</html>
