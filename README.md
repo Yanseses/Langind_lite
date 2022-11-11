@@ -1,3 +1,3 @@
 # Template for Site
 
-Visual is here: https://yanseses.github.io/langind_lite/
+Visual is here: https://yanseses.github.io/Langind_lite/
